@@ -1,0 +1,67 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Star Wars",
+            "picture": null,
+            "year": 1977,
+            "director": "George Lucas"
+        },
+        {
+            "id": 2,
+            "name": "The Empire Strikes Back",
+            "pictures": null,
+            "year": 1980,
+            "director": "Irvin Kershner"
+        },
+        {
+            "id": 3,
+            "name": "Return of the Jedi",
+            "pictures": null,
+            "year": 1983,
+            "director": "Richard Marquand"
+        },
+        {
+            "id": 4,
+            "name": "The Phantom Menace",
+            "pictures": null,
+            "year": 1999,
+            "director": "George Lucas"
+        },
+        {
+            "id": 5,
+            "name": "Attack of the Clones",
+            "pictures": null,
+            "year": 2002,
+            "director": "George Lucas"
+        },
+        {
+            "id": 6,
+            "name": "Revenge of the Sith",
+            "pictures": null,
+            "year": 2005,
+            "director": "George Lucas"
+        },
+        {
+            "id": 7,
+            "name": "The Force Awakens",
+            "pictures": null,
+            "year": 2015,
+            "director": "J.J. Abrams"
+        },
+        {
+            "id": 8,
+            "name": "The Last Jedi",
+            "pictures": null,
+            "year": 2015,
+            "director": "Rian Johnson"
+        },
+        {
+            "id": 9,
+            "name": "The Rise of Skywalker",
+            "pictures": null,
+            "year": 2015,
+            "director": "J.J. Abrams"
+        }
+    ]
+}
