@@ -1,5 +1,5 @@
 # meanstack
 
-2015 Reupload of MEAN stack course by Edx - Audited Course
+Update 2015 Reupload of MEAN stack course by Edx - Audited Course in Angular 15
 
-Angular Templates Removed
+Server init - server.js

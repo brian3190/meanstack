@@ -1,0 +1,25 @@
+<h3>Cart</h3>
+<div>Count: {{ dataservice.order.items.length }}</div>
+<hr />
+<table class="table table-condensed table-striped">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Total</th>
+        </tr>  
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of dataservice.order.items">
+            <td>
+                <image src="/img/{{ item.artId }}.jpg" alt="{{ item.artist }}" class="img-fluid product-thumb" />  
+            </td>
+            <td>{{ item.category }}</td>
+            <td>{{ item.quantity }}</td>
+            <td>{{ item.price | currency }}</td>
+            <td>{{ item.price * item.quantity | currency }}</td>
+        </tr>
+    </tbody>
+</table>

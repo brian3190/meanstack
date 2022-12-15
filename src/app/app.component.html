@@ -1,0 +1,38 @@
+<!--The content below is only a placeholder and can be replaced. -->
+<div style="text-align:center" class="content">
+    <h1>
+        Welcome to {{title}}
+    </h1>
+    <span style="display: block">{{title}} app is running!</span>
+    <img width="300" alt="Angular Logo" src="data:image">
+</div>
+<h2>Here are some links to help you start: </h2>
+<ul>
+    <li>
+        <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial"></a></h2>
+    </li>
+    <li>
+        <h2><a target="_blank" rel="noopener" href="https://angular.io/cli"></a></h2>
+    </li>
+    <li>
+        <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/"></a></h2>
+    </li>
+</ul>
+<div class="row">
+    <div class="col-9">
+        <h3>{{ title }}</h3>
+        <products></products>
+    </div>
+    <div class="col-3">
+        <cart></cart>
+    </div>
+</div>
+
+<nav>
+    <ul>
+        <li><a href="Dashboard" [routerLink]="['/dashboard']" routerLinkActive="router-link-active" >Dashboard</a></li>
+        <li><a href="Customer" [routerLink]="['/customer']" routerLinkActive="router-link-active" >Customer</a></li>
+    </ul>
+</nav>
+
+<router-outlet></router-outlet>
