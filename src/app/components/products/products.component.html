@@ -1,0 +1,15 @@
+<div class="row">
+    <div *ngFor="let p of dataservice.products" class="col-md-4">
+        <div class="border bg-light rounded p-1">
+            <img src="/img/{{ p.artId }}.jpg" class="img-fluid product-image" alt="{{ p.artist }}">
+            <h5>{{p.category}} - {{p.size}}</h5>
+            <ul class="products-props">
+                <li>Price: {{p.price | currency:"GBP" }}</li>
+                <li>Name: {{ p.name }}</li>
+                <li>Description: {{ p.description }}</li>
+                <li>Stock remaining: {{ p.stock }}</li>
+            </ul>
+            <button id="buyButton" class="btn btn-success" (click)="dataservice.addToOrder(p)">Buy</button>
+        </div>
+    </div>
+</div>
